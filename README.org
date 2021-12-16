@@ -45,3 +45,15 @@
   maisonA === maisonB // false
 #+end_src
 
+* Les tableaux
+
+#+begin_src javascript
+  let todos = [];
+  // Ajouter
+  todos.push('truc');
+  // Modifier
+  todos[0] = 'new truc';
+  // Supprimer
+  ['toto', 'tutu', 'tata','titi']
+  todos.splice(1,2); //  ['toto','titi']
+#+end_src
