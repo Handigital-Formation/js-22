@@ -82,3 +82,14 @@
 
 - Une fonctions en paramètre d'une autre fonction est une =fonction de rappel ou callback function=
 - Une fonction qui prend une fonction en paramètre est une =fonction d'ordre supérieur ou high order function=
+
+* Conditions
+
+#+begin_src javascript
+  if (this.todos[i].completed) {
+    console.log("(x) ", this.todos[i].texte);
+  } else {
+    console.log("( ) ", this.todos[i].texte);
+  }
+#+end_src
+
