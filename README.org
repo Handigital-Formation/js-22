@@ -21,3 +21,27 @@
 - Undefined // valeur qui n'a pas été initialisée
 ** Objets
 -> Si ce n'est pas un type primitif, alors c'est un objet
+
+* Comparaison
+** Primitifs, c'est similaire à des maths
+#+begin_src javascript
+  'flo' === 'flo' // true
+  'flo' === 1 // false
+   1 === 2 // false
+  true === true //true
+  true === false // false
+  false === false // true
+  undefined === undefined // true
+  null === null // true
+#+end_src
+
+** Objet
+#+begin_src javascript
+  {} === {} // false
+  let maisonA = {}
+  maisonA === maisonA // true
+  maisonA === {} // false
+  let maisonB = {}
+  maisonA === maisonB // false
+#+end_src
+
