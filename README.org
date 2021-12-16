@@ -107,3 +107,27 @@
   }
 #+end_src
 
+* Manipulation du dom
+DOM = Document Object Model
+
+** Récupération élément
+#+begin_src html
+<div id="monDiv">test</div>
+#+end_src
+#+begin_src javascript
+let el = document.getElementById('monDiv');
+#+end_src
+** Création d'élément
+#+begin_src javascript
+let el = document.createElement('li');
+#+end_src
+** Ajout / Modification d'élément
+#+begin_src javascript
+  todoUl.innerHTML = '';
+  todos.appendChild(todoLi);
+#+end_src
+#+begin_src html
+  <ul>
+    <li></li>
+  </ul>
+#+end_src
