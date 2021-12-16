@@ -131,3 +131,10 @@ let el = document.createElement('li');
     <li></li>
   </ul>
 #+end_src
+
+* Évenements
+#+begin_src javascript
+  todoUl.addEventListener('click',function(event){
+    console.log(event.target);
+  }
+#+end_src
