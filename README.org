@@ -72,6 +72,23 @@
     maVoiture.sayHello(); // Bonjour, je suis Grise
 #+end_src
 
+#+begin_src javascript
+  let maVoiture1 = {couleur: 'jaune'};
+  let maVoiture2 = maVoiture1;
+  maVoiture2.couleur = 'rouge';
+#+end_src
+
+maVoiture1 adresse mémoire 1 ===> {couleur:’jaune’’}
+
+maVoiture2 adresse mémoire 1 ===^
+
+ 
+
+maVoiture1 adresse mémoire 1 ===> {couleur:’rouge’’}
+
+maVoiture2 adresse mémoire 1 ===^
+
+
 * Fonctions
 
 #+begin_src javascript
