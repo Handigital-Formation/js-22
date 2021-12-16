@@ -1,0 +1,14 @@
+#+title: Javascript
+#+author: Handigital
+* Généralités
+** Documentation
+[[https://developer.mozilla.org/fr/docs/Web/JavaScript][Liens vers la documentation MDN]]
+** Afficher un message dans la console
+#+begin_src js
+  console.log('Bonjour');
+#+end_src
+** Déclaration d'une variable
+#+begin_src js
+  let maVar = 'Hello';
+#+end_src
+
