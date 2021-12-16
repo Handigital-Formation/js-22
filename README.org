@@ -79,3 +79,6 @@
   let result = multiply(3,4);
   console.log(result);
 #+end_src
+
+- Une fonctions en paramètre d'une autre fonction est une =fonction de rappel ou callback function=
+- Une fonction qui prend une fonction en paramètre est une =fonction d'ordre supérieur ou high order function=
