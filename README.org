@@ -136,5 +136,5 @@ let el = document.createElement('li');
 #+begin_src javascript
   todoUl.addEventListener('click',function(event){
     console.log(event.target);
-  }
+  });
 #+end_src
