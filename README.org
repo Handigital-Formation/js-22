@@ -12,3 +12,12 @@
   let maVar = 'Hello';
 #+end_src
 
+* Types
+** Primitifs
+- String // "Regardez cette chaîne" -> String = Texte
+- Boolean // true, false
+- Number // 1,2,3,4
+- Null // rien, nada
+- Undefined // valeur qui n'a pas été initialisée
+** Objets
+-> Si ce n'est pas un type primitif, alors c'est un objet
