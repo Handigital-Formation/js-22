@@ -57,3 +57,25 @@
   ['toto', 'tutu', 'tata','titi']
   todos.splice(1,2); //  ['toto','titi']
 #+end_src
+
+* Fonctions
+
+#+begin_src javascript
+  // Exemple de fonction sans paramètre
+  function displayTodos(){
+    console.log('Mes Todos: ',todos);
+  }
+  // Exemple de fonction avec paramètre
+  function addTodo(item){
+    todos.push(item);
+    displayTodos();
+  }
+  // Exemple de fonction avec valeur de retour
+  function multiply(x,y){
+    return x*y;
+  }
+  
+  // Appel à la fonction
+  let result = multiply(3,4);
+  console.log(result);
+#+end_src
