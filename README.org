@@ -67,9 +67,10 @@
     sayCouleur: function() { // Méthode
       console.log("Bonjour, je suis "+this.couleur);
     }
+   }
   
     maVoiture.marque; // "Peugeot"
-    maVoiture.sayHello(); // Bonjour, je suis Grise
+    maVoiture.sayCouleur(); // Bonjour, je suis Grise
 #+end_src
 
 #+begin_src javascript
